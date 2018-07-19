@@ -2,16 +2,16 @@ package club.bitmap.config;
 
 public class DefaultConfig implements Config {
 	// AWS Client
-	private static final String aws_access_key_id = "AKIAJ5MVENYCM4VL67XA";
-	private static final String aws_secret_access_key = "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";
+	private static final String aws_access_key_id = "AKIA-MY-ACCESS-KEY-ID";
+	private static final String aws_secret_access_key = "enter-secret-key-here";
 
 	// KMS Encryption
-	private static final String kms_cmk_id = "dfd1c3c6-7ed0-4324-8e1b-b029ebbc152c";
-	private static final String kms_cmk_region = "us-east-1";
+	private static final String kms_cmk_id = "kms-cmk-id";
+	private static final String kms_cmk_region = "enter-key-region"; //"us-east-1";
 
 	// S3 Bucket
 	private static final String s3_bucket_name = "mail.bitmap.club";
-	private static final String s3_bucket_prefix = "mailbox/";
+	private static final String s3_bucket_prefix = "Download/From/This/Directory/"; //"mailbox/"; 
 
 	// Local file sync
 	private static final String local_prefix = "mailbox/";
