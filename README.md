@@ -1,2 +1,2 @@
 # bitmap-email
-The client side of my email solution. Downloads and decrypts email stored in Amazon S3.
+Simple command-line client to download and decrypt email stored in Amazon S3.
